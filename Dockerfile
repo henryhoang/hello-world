@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /lib
 
-#ADD github.com/henryhoang/hello-world/run.sh /usr/local/bin
+#ADD https://github.com/henryhoang/hello-world/blob/master/run.sh 
 
 EXPOSE 80
 
@@ -13,4 +13,4 @@ CMD echo "This is a test." | wc
 
 CMD echo Hello World
 
-CMD ["/bin/sh", "-c", "run.sh"]
+
