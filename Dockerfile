@@ -13,4 +13,4 @@ CMD echo "This is a test." | wc
 
 CMD echo Hello World
 
-CMD ["/bin/sh", "-c", "/hello-world/run.sh"]
+CMD ["/bin/sh", "-c", "run.sh"]
