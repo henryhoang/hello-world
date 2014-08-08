@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /lib
 
-#ADD hello-world/run.sh /usr/local/bin/run
+ADD henryhoang/hello-world/run.sh /usr/local/bin/run
 
 EXPOSE 80
 
