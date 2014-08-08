@@ -10,7 +10,7 @@ RUN ls -lh /usr/local
 EXPOSE 80
 
 CMD echo Hello World
-CMD echo "This is a test." | wc | f1
+CMD echo "This is a test." | wc
 
 
 
