@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /usr/local
 RUN ps auxf
-RUN ./run.sh
+RUN ./henryhoang/hello-world/run.sh
 
 
 
