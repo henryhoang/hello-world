@@ -13,7 +13,7 @@ EXPOSE 80
 
 CMD echo "This is a test." | wc
 CMD /bin/sh -c "while true; do echo hello world; date; sleep 1; done"
-CND /bin/sh -c ./run.sh
+CMD /bin/sh -c ./run.sh
 
 
 
