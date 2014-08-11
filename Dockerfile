@@ -5,8 +5,6 @@ RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /usr/local
 RUN ps auxf
-RUN ./henryhoang/hello-world/run.sh
-
 
 
 EXPOSE 80
