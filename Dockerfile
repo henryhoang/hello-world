@@ -10,8 +10,10 @@ RUN ps auxf
 
 EXPOSE 80
 
-CMD echo Hello World
+
 CMD echo "This is a test." | wc
+
+CMD echo /bin/sh -c "while true; do echo hello world; date; sleep 1; done"
 
 
 
