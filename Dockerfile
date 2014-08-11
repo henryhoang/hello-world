@@ -4,6 +4,7 @@ MAINTAINER Henry Hoang "henry.hoang@j2.com"
 RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /usr/local
+RUN ps auxf
 
 
 
