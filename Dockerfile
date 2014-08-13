@@ -7,7 +7,7 @@ RUN ls -lh /bin
 RUN ps auxf
 
 
-EXPOSE 80
+EXPOSE 8080
 
 
 CMD echo "This is a test." | wc
