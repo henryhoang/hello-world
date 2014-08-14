@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /bin
 RUN ps auxf
-RUN cal
+
 
 EXPOSE 8080
 
