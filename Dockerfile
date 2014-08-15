@@ -7,6 +7,7 @@ RUN ls -lh /bin
 RUN ps auxf
 
 ENTRYPOINT ls -l
+ENTRYPOINT echo "This is a test." | wc
 
 EXPOSE 8080
 
