@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -q -y apache2
 RUN ls -lh /bin
 RUN ps auxf
 
+ENTRYPOINT ls -l
 
 EXPOSE 8080
 
