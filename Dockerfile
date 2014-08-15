@@ -8,6 +8,7 @@ RUN ps auxf
 
 ENTRYPOINT ls -l
 ENTRYPOINT echo "This is a test." | wc
+ENTRYPOINT clear; echo; /bin/sh -c "echo Date and time is:"; date; echo; echo "Your name is: `whoami`\n"; echo "Your current directory is: \c"; pwd; ls -lh; ps aux; echo "current PATH: "; echo $PATH
 
 EXPOSE 8080
 
