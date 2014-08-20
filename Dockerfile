@@ -14,8 +14,8 @@ EXPOSE 8080
 
 
 CMD echo "This is a test." | wc
+
+CMD clear; echo; /bin/sh -c "echo Date and time is:"; date; echo; echo "Your name is: `whoami`\n"; echo "Your current directory is: \c"; pwd; ls -lh; ps aux; echo "current PATH: "; echo $PATH
+
 CMD /bin/sh -c "while true; do echo hello world; date; sleep 1; done"
-#CMD clear; echo; /bin/sh -c "echo Date and time is:"; date; echo; echo "Your name is: `whoami`\n"; echo "Your current directory is: \c"; pwd; ls -lh; ps aux; echo "current PATH: "; echo $PATH
-
-
 
