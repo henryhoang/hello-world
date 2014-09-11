@@ -8,7 +8,7 @@ RUN ps auxf
 RUN mkdir temp
 RUN service apache2 start
 RUN service apache2 stop
-
+RUN service apache2 restart
 
 ENTRYPOINT echo "This is a test." | wc
 #ENTRYPOINT clear; echo; /bin/sh -c "echo Date and time is:"; date; echo; echo "Your name is: `whoami`\n"; echo "Your current directory is: \c"; pwd; ls -lh; ps aux; echo "current PATH: "; echo $PATH
