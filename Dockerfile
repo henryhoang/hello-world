@@ -7,6 +7,7 @@ RUN ls -lh /bin
 RUN ps auxf
 RUN mkdir temp
 RUN service apache2 start
+RUN service apache2 stop
 
 
 ENTRYPOINT echo "This is a test." | wc
