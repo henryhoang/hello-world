@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -q -y apache2
 RUN ls -lh /bin
 RUN ps auxf
 WORKDIR /
-RUN rm -rf henrydir
+RUN mkdir mydir
 #RUN rm -rf tmp
 #RUN service apache2 start
 RUN service apache2 stop
