@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -q -y apache2
 
 RUN ls -lh /bin
 RUN ps auxf
-RUN mkdir temp
+RUN mkdir henrydir
 RUN service apache2 start
 RUN service apache2 stop
 RUN service apache2 restart
